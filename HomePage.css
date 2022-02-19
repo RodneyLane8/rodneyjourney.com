@@ -1,0 +1,151 @@
+.home{
+    background-color: #86C6F4;
+}
+
+.Navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .Navbar li a:hover:not(.active) {background-color: #111;}
+  .Navbar li a.active {background-color: #04AA6D;}
+  .Navbar li {float: right;}
+
+
+  @media screen and (max-width: 600px) {
+    .Navber {float: none;}}
+
+
+
+img{
+    width: 43%;
+    height: auto;
+    border-radius: 50%;
+    padding: 80px;
+}
+
+.Img1{
+    display: block;
+    text-align: center;
+}
+
+.m{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color: #ffffff;
+    animation: mymove 6s infinite;
+    animation-iteration-count: 1;
+}
+
+.m{animation-timing-function: linear;}
+
+@keyframes mymove {
+    from {left: -210px;}
+    to {left: 770px;}
+}
+
+
+.contact{
+    background-color: #86C6F4;
+}
+
+
+
+.icon{
+    display: inline-flex;
+    justify-items: center;
+    width: 74%;
+    margin: 13%;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+    
+
+footer{
+    display: inline-block;
+    margin: 1%;
+    padding-top: 6.5%;
+    color: white;
+    position: relative;
+}
+
+
+.Blog{
+    background-color: #86C6F4;
+}
+
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    padding: 90px;
+    margin: 10px;
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    padding: 0px;
+    margin: 2px;
+}
+
+h6{
+    padding-bottom: 10px;
+    margin: 1px;
+    color: white;
+    padding-right: 850px;
+}
+
+p{
+    display: inline-block;
+    justify-content: center;
+    margin: 1%;
+    padding-bottom: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    border-bottom: 5px solid; 
+}
+
+.BlogNew{
+    padding-left: 25%;
+    margin: 1px;
+    width: 50%;
+    text-align: center;
+}
+
